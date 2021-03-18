@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    background: linear-gradient(90deg, pink,gray,orange);
+    min-height: 100vh;
+    text-align: center;
+}
+
+.main{
+    display: flex;    
+}
+.left{
+    margin-left: 10vw;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    margin: 17px;
+    padding: 17px;
+    border-radius: 25px;
+    font-size: 35px;
+    transition: 1s ease-in-out;
+}
+button:hover{
+    background-color: cadetblue;
+}
+
+.right{
+    margin-left: 15vw;
+    
+}
